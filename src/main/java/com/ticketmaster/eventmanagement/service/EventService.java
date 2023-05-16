@@ -18,7 +18,6 @@ public class EventService {
     EventsInfoClient client;
 
     public Artist retrieveArtistInfo(String artistId) {
-
         return mapArtist(artistId);
     }
 
